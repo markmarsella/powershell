@@ -1,1 +1,1 @@
-oh-my-posh --init --shell pwsh --config C:/Users/Mark/Documents/PowerShell/powershell.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config https://raw.githubusercontent.com/markmarsella/powershell/main/powershell.json?token=GHSAT0AAAAAABZTQVYFWHLZCTYIO6A7OUIAYZ6TAAQ | Invoke-Expression
