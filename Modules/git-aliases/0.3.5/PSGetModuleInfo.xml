@@ -1,0 +1,388 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">git-aliases</S>
+      <Version N="Version">0.3.5</Version>
+      <S N="Type">Module</S>
+      <S N="Description">A PowerShell module that provide partial Git aliases from Oh My Zsh's git plugin.</S>
+      <S N="Author">Saran Tanpituckpong</S>
+      <S N="CompanyName">Illuminator</S>
+      <S N="Copyright">(c) Saran Tanpituckpong. All rights reserved.</S>
+      <DT N="PublishedDate">2021-07-03T11:56:52+01:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-10-06T13:20:15.4054719+01:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/gluons/powershell-git-aliases/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/gluons/powershell-git-aliases</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>git</S>
+          <S>alias</S>
+          <S>aliases</S>
+          <S>oh-my-zsh</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>g</S>
+                <S>ga</S>
+                <S>gaa</S>
+                <S>gapa</S>
+                <S>gau</S>
+                <S>gb</S>
+                <S>gba</S>
+                <S>gbda</S>
+                <S>gbl</S>
+                <S>gbnm</S>
+                <S>gbr</S>
+                <S>gbs</S>
+                <S>gbsb</S>
+                <S>gbsg</S>
+                <S>gbsr</S>
+                <S>gbss</S>
+                <S>gc</S>
+                <S>gc!</S>
+                <S>gcn!</S>
+                <S>gca</S>
+                <S>gcam</S>
+                <S>gca!</S>
+                <S>gcan!</S>
+                <S>gcans!</S>
+                <S>gcb</S>
+                <S>gcf</S>
+                <S>gcl</S>
+                <S>gclean</S>
+                <S>gcm</S>
+                <S>gcd</S>
+                <S>gcmsg</S>
+                <S>gco</S>
+                <S>gcount</S>
+                <S>gcp</S>
+                <S>gcpa</S>
+                <S>gcpc</S>
+                <S>gcs</S>
+                <S>gd</S>
+                <S>gdca</S>
+                <S>gdt</S>
+                <S>gdw</S>
+                <S>gf</S>
+                <S>gfa</S>
+                <S>gfo</S>
+                <S>gg</S>
+                <S>gga</S>
+                <S>ggf</S>
+                <S>ggfl</S>
+                <S>ghh</S>
+                <S>ggsup</S>
+                <S>gpsup</S>
+                <S>gignore</S>
+                <S>gignored</S>
+                <S>gl</S>
+                <S>glg</S>
+                <S>glgg</S>
+                <S>glgga</S>
+                <S>glgm</S>
+                <S>glgp</S>
+                <S>glo</S>
+                <S>glog</S>
+                <S>gloga</S>
+                <S>glol</S>
+                <S>glola</S>
+                <S>gm</S>
+                <S>gmom</S>
+                <S>gmt</S>
+                <S>gmtvim</S>
+                <S>gmum</S>
+                <S>gp</S>
+                <S>gpd</S>
+                <S>gpf</S>
+                <S>gpf!</S>
+                <S>gpoat</S>
+                <S>gpristine</S>
+                <S>gpu</S>
+                <S>gpv</S>
+                <S>gr</S>
+                <S>gra</S>
+                <S>grb</S>
+                <S>grba</S>
+                <S>grbc</S>
+                <S>grbi</S>
+                <S>grbm</S>
+                <S>grbs</S>
+                <S>grh</S>
+                <S>grhh</S>
+                <S>grmv</S>
+                <S>grrm</S>
+                <S>grs</S>
+                <S>grset</S>
+                <S>grt</S>
+                <S>gru</S>
+                <S>grup</S>
+                <S>grv</S>
+                <S>gsb</S>
+                <S>gsd</S>
+                <S>gsh</S>
+                <S>gsi</S>
+                <S>gsps</S>
+                <S>gsr</S>
+                <S>gss</S>
+                <S>gst</S>
+                <S>gsta</S>
+                <S>gstaa</S>
+                <S>gstd</S>
+                <S>gstl</S>
+                <S>gstp</S>
+                <S>gstc</S>
+                <S>gsts</S>
+                <S>gsu</S>
+                <S>gsw</S>
+                <S>gts</S>
+                <S>gunignore</S>
+                <S>gunwip</S>
+                <S>gup</S>
+                <S>gupv</S>
+                <S>glum</S>
+                <S>gvt</S>
+                <S>gwch</S>
+                <S>gwip</S>
+                <S>ggl</S>
+                <S>ggp</S>
+                <S>Get-Git-CurrentBranch</S>
+                <S>Get-Git-MainBranch</S>
+                <S>Format-AliasDefinition</S>
+                <S>Get-Git-Aliases</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>g</S>
+                <S>ga</S>
+                <S>gaa</S>
+                <S>gapa</S>
+                <S>gau</S>
+                <S>gb</S>
+                <S>gba</S>
+                <S>gbda</S>
+                <S>gbl</S>
+                <S>gbnm</S>
+                <S>gbr</S>
+                <S>gbs</S>
+                <S>gbsb</S>
+                <S>gbsg</S>
+                <S>gbsr</S>
+                <S>gbss</S>
+                <S>gc</S>
+                <S>gc!</S>
+                <S>gcn!</S>
+                <S>gca</S>
+                <S>gcam</S>
+                <S>gca!</S>
+                <S>gcan!</S>
+                <S>gcans!</S>
+                <S>gcb</S>
+                <S>gcf</S>
+                <S>gcl</S>
+                <S>gclean</S>
+                <S>gcm</S>
+                <S>gcd</S>
+                <S>gcmsg</S>
+                <S>gco</S>
+                <S>gcount</S>
+                <S>gcp</S>
+                <S>gcpa</S>
+                <S>gcpc</S>
+                <S>gcs</S>
+                <S>gd</S>
+                <S>gdca</S>
+                <S>gdt</S>
+                <S>gdw</S>
+                <S>gf</S>
+                <S>gfa</S>
+                <S>gfo</S>
+                <S>gg</S>
+                <S>gga</S>
+                <S>ggf</S>
+                <S>ggfl</S>
+                <S>ghh</S>
+                <S>ggsup</S>
+                <S>gpsup</S>
+                <S>gignore</S>
+                <S>gignored</S>
+                <S>gl</S>
+                <S>glg</S>
+                <S>glgg</S>
+                <S>glgga</S>
+                <S>glgm</S>
+                <S>glgp</S>
+                <S>glo</S>
+                <S>glog</S>
+                <S>gloga</S>
+                <S>glol</S>
+                <S>glola</S>
+                <S>gm</S>
+                <S>gmom</S>
+                <S>gmt</S>
+                <S>gmtvim</S>
+                <S>gmum</S>
+                <S>gp</S>
+                <S>gpd</S>
+                <S>gpf</S>
+                <S>gpf!</S>
+                <S>gpoat</S>
+                <S>gpristine</S>
+                <S>gpu</S>
+                <S>gpv</S>
+                <S>gr</S>
+                <S>gra</S>
+                <S>grb</S>
+                <S>grba</S>
+                <S>grbc</S>
+                <S>grbi</S>
+                <S>grbm</S>
+                <S>grbs</S>
+                <S>grh</S>
+                <S>grhh</S>
+                <S>grmv</S>
+                <S>grrm</S>
+                <S>grs</S>
+                <S>grset</S>
+                <S>grt</S>
+                <S>gru</S>
+                <S>grup</S>
+                <S>grv</S>
+                <S>gsb</S>
+                <S>gsd</S>
+                <S>gsh</S>
+                <S>gsi</S>
+                <S>gsps</S>
+                <S>gsr</S>
+                <S>gss</S>
+                <S>gst</S>
+                <S>gsta</S>
+                <S>gstaa</S>
+                <S>gstd</S>
+                <S>gstl</S>
+                <S>gstp</S>
+                <S>gstc</S>
+                <S>gsts</S>
+                <S>gsu</S>
+                <S>gsw</S>
+                <S>gts</S>
+                <S>gunignore</S>
+                <S>gunwip</S>
+                <S>gup</S>
+                <S>gupv</S>
+                <S>glum</S>
+                <S>gvt</S>
+                <S>gwch</S>
+                <S>gwip</S>
+                <S>ggl</S>
+                <S>ggp</S>
+                <S>Get-Git-CurrentBranch</S>
+                <S>Get-Git-MainBranch</S>
+                <S>Format-AliasDefinition</S>
+                <S>Get-Git-Aliases</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) Saran Tanpituckpong. All rights reserved.</S>
+          <S N="description">A PowerShell module that provide partial Git aliases from Oh My Zsh's git plugin.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4791</S>
+          <S N="downloadCount">10478</S>
+          <S N="packageSize">8296</S>
+          <S N="published">03/07/2021 11:56:52 +01:00</S>
+          <S N="created">03/07/2021 11:56:52 +01:00</S>
+          <S N="lastUpdated">06/10/2022 08:54:55 +01:00</S>
+          <S N="tags">git alias aliases oh-my-zsh PSModule</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-10-06T08:54:55Z</S>
+          <S N="NormalizedVersion">0.3.5</S>
+          <S N="Authors">Saran Tanpituckpong</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">git-aliases.nuspec|aliases.ps1|git-aliases.psd1|git-aliases.psm1|utils.ps1</S>
+          <S N="Functions">g ga gaa gapa gau gb gba gbda gbl gbnm gbr gbs gbsb gbsg gbsr gbss gc gc! gcn! gca gcam gca! gcan! gcans! gcb gcf gcl gclean gcm gcd gcmsg gco gcount gcp gcpa gcpc gcs gd gdca gdt gdw gf gfa gfo gg gga ggf ggfl ghh ggsup gpsup gignore gignored gl glg glgg glgga glgm glgp glo glog gloga glol glola gm gmom gmt gmtvim gmum gp gpd gpf gpf! gpoat gpristine gpu gpv gr gra grb grba grbc grbi grbm grbs grh grhh grmv grrm grs grset grt gru grup grv gsb gsd gsh gsi gsps gsr gss gst gsta gstaa gstd gstl gstp gstc gsts gsu gsw gts gunignore gunwip gup gupv glum gvt gwch gwip ggl ggp Get-Git-CurrentBranch Get-Git-MainBranch Format-AliasDefinition Get-Git-Aliases</S>
+          <S N="GUID">fe7345a7-0e7f-43d6-b924-3fe93c8f8fe7</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\I36603\OneDrive - Verisk Analytics\Documents\PowerShell\Modules\git-aliases\0.3.5</S>
+    </MS>
+  </Obj>
+</Objs>
