@@ -60,7 +60,7 @@
             "always_enabled": true
           },
           "style": "powerline",
-          "template": " \ue23a{{ if gt .Code 0 }}\uf00d{{ else }}\uf42e{{ end }} ",
+          "template": " \uf0823{{ if gt .Code 0 }}\uf00d{{ else }}\uf42e{{ end }} ",
           "trailing_diamond": "\ue0b4",
           "type": "exit"
         }
